@@ -7,15 +7,15 @@ const Header = (props) => {
     return (
         <>
         {/* <h1 style={{margin: marginx, color: color}}></h1> */}
-        <h1>
+        <header>
             {text}
             {'\n'}
             
-        </h1>
+        </header>
 
-        <p>
+        <h1>
             {text2}
-        </p>
+        </h1>
 
         <hr/>
         
