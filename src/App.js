@@ -7,15 +7,9 @@ import Contact from "./components/Contact";
 const App = () => {
   // Masukkan Header dan Contact ke dalam div App
   return (
-    <div
-      className="App"
-    >
+    <div className="App">
       <div>
-        <Header
-          text="Call a Friend"
-          text2="your friendly contact app"
-        />
-
+        <Header />
 
         <div>
           <Contact data={contacts[0]} />
